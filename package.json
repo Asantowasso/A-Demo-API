@@ -1,0 +1,23 @@
+{
+  "name": "a-demo-api",
+  "version": "1.0.0",
+  "description": "API practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asantowasso/A-Demo-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asantowasso/A-Demo-API/issues"
+  },
+  "homepage": "https://github.com/Asantowasso/A-Demo-API#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
