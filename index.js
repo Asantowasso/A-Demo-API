@@ -21,6 +21,13 @@ app.get('/electronics/TVs', (req, res) => {
 
 })
 
+app.get('/homegoods/furniture', (req, res) => {
+  res.status(200).send({
+    product:'table',
+    material: 'oak'
+  })
+})
+
 app.post('/electronics/:id', (req,res) =>{
 
 const {id} = req.params;
